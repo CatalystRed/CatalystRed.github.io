@@ -1,0 +1,16 @@
+body {
+  background-color: #1d5962;  
+}
+
+.container {
+    width: 95vw;
+    height: 90vh;
+    padding: 15px;
+    background-color: #000;
+    display: block;
+    margin: 15px auto;
+}
+
+h1, p {
+    color: #d8eee1;
+}
