@@ -1,16 +1,45 @@
 body {
-  background-color: #1d5962;  
+    margin: 0;
 }
+
 
 .container {
-    width: 95vw;
-    height: 90vh;
+    border: #1d5962 15px solid;
     padding: 15px;
     background-color: #000;
-    display: block;
-    margin: 15px auto;
+    margin: 0 0;
+    height: 100vh;
+    color: #d8eee1;
+    font-family: 'Roboto';
 }
 
-h1, p {
+.list-wrapper {
+    margin-bottom: 100px;
+}
+
+h1, h2, p {
+    clear: both;
     color: #d8eee1;
 }
+
+ul {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.what-do-list li,
+.go-places-list li
+{
+    float: left;
+    padding: 10px;    
+}
+
+li a {
+    color: #d8eee1;
+}
+
+li a:hover {
+    color: #8a9990;
+    transition: 0.2s;
+}
+
