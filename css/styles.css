@@ -1,14 +1,20 @@
-body {
+html, body {
     margin: 0;
+	height: 100%;
+	width:100%;
+}
+
+* {
+	box-sizing: border-box;
 }
 
 
-.container {
+.container-1 {
     border: #1d5962 15px solid;
     padding: 15px;
     background-color: #000;
     margin: 0 0;
-    height: 100vh;
+	height: 100%;
     color: #d8eee1;
     font-family: 'Roboto';
 }
